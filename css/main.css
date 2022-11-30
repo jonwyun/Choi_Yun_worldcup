@@ -172,11 +172,16 @@ footer {
 
 .lb_text, .lb_heading { text-align: left; }
 
+.lb_heading { color: orange;}
+
 .lb_text {
   line-height: 1.6 !important;
   margin-left: 0;
   padding-top: 2em;
 }
 
+#subtext {
+  font-size: 1.5em;
+}
 /* turn the lightbox on using the :target pseudo selector */
 .lightbox:target { display: block; }
